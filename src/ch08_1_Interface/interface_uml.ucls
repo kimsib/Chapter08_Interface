@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="ch08_1_Interface.Searchable" project="Chapter08_Interface" 
+    file="/Chapter08_Interface/src/ch08_1_Interface/SmartTelevisonExample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="135" x="891" y="413"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="ch08_1_Interface.RemoteControl" project="Chapter08_Interface" 
+    file="/Chapter08_Interface/src/ch08_1_Interface/RemoteControlExample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="137" x="1192" y="413"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="ch08_1_Interface.PerformanceTestExample" project="Chapter08_Interface" 
+    file="/Chapter08_Interface/src/ch08_1_Interface/PerformanceTestExample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="206" x="178" y="177"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ch08_1_Interface.Television" project="Chapter08_Interface" 
+    file="/Chapter08_Interface/src/ch08_1_Interface/RemoteControlExample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="135" x="1089" y="177"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ch08_1_Interface.SmartTelevision" project="Chapter08_Interface" 
+    file="/Chapter08_Interface/src/ch08_1_Interface/SmartTelevisonExample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="158" x="891" y="177"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="ch08_1_Interface.RemoteControlExample" project="Chapter08_Interface" 
+    file="/Chapter08_Interface/src/ch08_1_Interface/RemoteControlExample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="192" x="424" y="177"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="ch08_1_Interface.PerformanceTest" project="Chapter08_Interface" 
+    file="/Chapter08_Interface/src/ch08_1_Interface/PerformanceTestExample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="217" x="1264" y="177"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="ch08_1_Interface.Audio" project="Chapter08_Interface" 
+    file="/Chapter08_Interface/src/ch08_1_Interface/RemoteControlExample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="105" x="1521" y="177"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="ch08_1_Interface.SmartTelevisonExample" project="Chapter08_Interface" 
+    file="/Chapter08_Interface/src/ch08_1_Interface/SmartTelevisonExample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="195" x="656" y="177"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="11">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="12" name="rc"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
